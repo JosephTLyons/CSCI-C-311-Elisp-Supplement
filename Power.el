@@ -1,4 +1,4 @@
-;; power can compute both positive and negative integer exponent problems.
+;; Power can compute both positive and negative integer exponent problems.
 ;; However, the algorithm doesn't work properly for exponents that are floats.
 
 (defun positive-exponent (base exponent)
