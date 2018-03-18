@@ -1,7 +1,7 @@
 (defun print-rectangle (x y symbol)
   "Prints a rectangle of variable symbol x by y size."
-  (dotimes (yCounter y)
-    (dotimes (xCounter x)
+  (dotimes (y-counter y)
+    (dotimes (x-counter x)
       (princ symbol)
       (princ " "))
     (princ "\n")))
