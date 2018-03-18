@@ -1,11 +1,12 @@
-(defun print-rectangle (x y)
-  "Prints a rectangle of asterisks x by y size."
+(defun print-rectangle (x y symbol)
+  "Prints a rectangle of variable symbol x by y size."
   (dotimes (yCounter y)
     (dotimes (xCounter x)
-      (princ "* "))
+      (princ symbol)
+      (princ " "))
     (princ "\n")))
 
-(print-rectangle 10 10)
+(print-rectangle 10 10 "*")
 ;* * * * * * * * * * 
 ;* * * * * * * * * * 
 ;* * * * * * * * * * 
